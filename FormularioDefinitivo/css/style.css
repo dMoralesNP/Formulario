@@ -1,0 +1,74 @@
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h3{
+    color: blueviolet;
+}
+h2{
+    color: blueviolet;
+}
+
+.contenedor{
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    padding-bottom: 20%;
+}
+
+
+.Formulario{
+    position: absolute;
+    overflow: auto;
+    padding: 32px;
+    
+    margin-right: 40%;
+    background-color: white;
+    border-radius: 6%;
+}
+
+label{
+    color:black;
+}
+
+
+
+
+.error{
+    visibility: hidden;
+}
+
+.Errores-activado{
+    color: red;
+    visibility: visible;
+}
+.botonEnviar {
+    display: inline-block;
+    padding: 7px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ac0505;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    ;
+  }
+  
+  .botonEnviar:hover {background-color: #ac0505bd}
+  
+  .botonEnviar:active {
+    background-color: #ac0505bd;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
